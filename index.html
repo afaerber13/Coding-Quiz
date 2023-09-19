@@ -21,6 +21,25 @@
     <div id="everything" class="row text-left">
         <div class="col-md-2"></div>
         <main class="col-md-8 mt-5"></main>
+            <!-- start the quiz -->
+            <div id="start" class="m-2 justify-content-center">
+                <h1 class="font-weight-bold pl-5 pr-5">Coding Quiz</h1>
+                <p class="p-5">Let's test your knowledge on JavaScript fundamentals. Try to answer the followding code-related questions within the time limit. Keep in mind that incorrect answers will penalize your time by ten seconds.</p>
+                      <button type="button" id="start-quiz-button" class="btn btn-info ml-5 align-center">Start</button>
+            </div>
+    </div>
+    <!-- Quiz -->
+    <div id="questions" style="display: none;">
+        <p id="question-title" class="pl-5 ml-2 pt-5 justify-content-center font-weight-bold"></p>
+        <div class="pl-5 pt-2 pb-3 m-2 justify-content-center">
+            <p><button id="btn0" class="btn btn-dark"></button></p>
+            <p><button id="btn1" class="btn btn-dark"></button></p>
+            <p><button id="btn2" class="btn btn-dark"></button></p>
+            <p><button id="btn3" class="btn btn-dark"></button></p>
+            <p><button id="btn4" class="btn btn-dark"></button></p>
+            <hr id="lineBreak" style="display: none" class="mt-4">
+            <p id="answerCheck" style="display: none;"></p>
+        </div>
     </div>
 </body>
 </html>
